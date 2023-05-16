@@ -7,6 +7,8 @@ The summed value of each buy/sell transaction of the security, taken into accoun
 
 If the purchase date lies before the beginning of the reporting period, then the value at the beginning of the period is taken. If the purchase date lies within the period, then  the value at the purchase date is used. However, if the purchase data is later than the end of the reporting period, then the purchase is not taken into account for the calculation of the purchase value.
 
+!(images/purchase-value-reports-securities.png)
+
 Assume the following scenario. We are now 2023, May, 15th and you have bought 30 shares at different times and quotes (see below). An overview of all buys and their respective quotes is shown below.
 
 There are several options for the reporting period. By default, 1 year, 2 years and 3 years are available, but you can create custom periods as well (e.g. Since 1 Jan 2000 or From 1 Jan 2000 until 1 Jan 2020)
@@ -46,4 +48,4 @@ Now, let's calculate the Purchase Value for the different periods.
 3 years period running from  2020, May 15 until 2023, May 15. The Statement of Assets is 0 EUR because all 5 shares from buy 1 are sold (FIFO) on 2021, Jul 15. From the second buy, only 3 shares are remaining, evaluated at 90 EUR. The third buy is evaluated at 110 EUR. The Purchase Value of the 3 years period is 3 shares * 90 EUR + 15 shares * 110 EUR = 1920 EUR.
 
 The longer periods have the same Purchase Value as the 3 years period.
-![image](https://github.com/blendoc/github.io/assets/77246998/a99d91a6-888c-4c80-86b5-2c2883a8f1e1)
+
