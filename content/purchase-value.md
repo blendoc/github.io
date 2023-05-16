@@ -1,4 +1,4 @@
-Purchase Value
+# Purchase Value
 NL: Aankoopwaarde
 
 Used in Reports > Performance > Securities
@@ -7,19 +7,9 @@ The summed value of each buy/sell transaction of the security, taken into accoun
 
 If the purchase date lies before the beginning of the reporting period, then the value at the beginning of the period is taken. If the purchase date lies within the period, then  the value at the purchase date is used. However, if the purchase data is later than the end of the reporting period, then the purchase is not taken into account for the calculation of the purchase value.
 
-
-
-
-
 Assume the following scenario. We are now 2023, May, 15th and you have bought 30 shares at different times and quotes (see below). An overview of all buys and their respective quotes is shown below.
 
-
-
-
-
 There are several options for the reporting period. By default, 1 year, 2 years and 3 years are available, but you can create custom periods as well (e.g. Since 1 Jan 2000 or From 1 Jan 2000 until 1 Jan 2020)
-
-
 
 The reported purchase value of a particular security is dependent upon the selected reporting period.
 
